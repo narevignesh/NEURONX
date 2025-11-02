@@ -11,7 +11,7 @@ public class TestKNNWithCSV {
     public static void main(String[] args) {
 
         // === 1️⃣ Load Dataset ===
-        String datasetPath = "dataset_supervised.csv";
+        String datasetPath = "dataset_classificatication.csv";
         boolean supervised = true;
 
         System.out.println("📂 Loading dataset from: " + datasetPath);
@@ -74,9 +74,9 @@ public class TestKNNWithCSV {
         System.out.printf("\n🎯 Accuracy: %.2f%%\n", accuracy);
 
         // === 7️⃣ Predict new unseen data ===
-        double[] newSample1 = {5.2, 3.4, 1.5, 0.2};  // Setosa
-        double[] newSample2 = {6.3, 2.9, 5.6, 1.8};  // Virginica
-        double[] newSample3 = {5.9, 2.8, 4.5, 1.3};  // Versicolor
+        double[] newSample1 = {3.2, 3.4, 1.5, 0.2};  // Setosa
+        double[] newSample2 = {6.3, 9.9, 5.6, 8.8};  // Virginica
+        double[] newSample3 = {12.9, 13.8, 10.5, 15.3};  // Versicolor
 
         String pred1 = knn.predict(newSample1);
         String pred2 = knn.predict(newSample2);
