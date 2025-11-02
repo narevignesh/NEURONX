@@ -1,5 +1,6 @@
-nuronx\supervised\classification\KNClassifier$DataPoint.class
-nuronx\supervised\regression\LinearRegression.class
+neuronx\supervised\classification\KNNClassifier$DataPoint.class
+neuronx\supervised\regression\SimpleLinearRegression.class
+neuronx\utils\FileUtils.class
 test\TestKNNWithCSV.class
-nuronx\supervised\classification\KNClassifier.class
-nuronx\utils\FileUtils.class
+test\TestSLR.class
+neuronx\supervised\classification\KNNClassifier.class
